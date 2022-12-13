@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    font-family: sans-serif!important;
+}
+
+.main-flex {
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+}
+.labelflex {
+    width: 20%;
+}
+.formcontrolflex {
+    width: 80%;
+}
+.formcontrolflex input {
+    width: 100%;
+    border: 1px solid #d4d4d8;
+    padding: 5px;
+    border-radius: 3px;
+}
+.formcontrolflex select {
+    width: 100%;
+    border: 1px solid #d4d4d8;
+    padding: 5px;
+    border-radius: 3px;
+}
+.wrapper-form {
+    max-width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    background: ghostwhite;
+    border-radius: 10px;
+}
+.wrapperbtn {
+    text-align: right;
+    margin-top: 10px;
+}
+.wrapperbtn button {
+    width: 10%;
+    padding: 8px 10px;
+    border: green;
+    background: #4caf50;
+    border-radius: 3px;
+    color: #fff;
+}
